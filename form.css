@@ -1,0 +1,12 @@
+body{
+    background-color: darkslategray;
+}
+a{
+    background-color:dimgray;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover{
+    background-color: blue;
+}

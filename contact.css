@@ -1,0 +1,29 @@
+body{background-color: bisque;}
+#c{color: white;
+background-color: black;
+font-size: 25px;}
+#c1{
+    background-color: brown;
+    color: bisque;
+    font-size: 25px;
+}
+#c2{
+    background-color: chartreuse;
+    color: white;
+    font-size: 25px;
+}
+#c3{
+    background-color:cyan;
+    color:orange;
+    font-size: 25px;
+}
+#c4{
+    background-color:dimgray;
+    color: white;
+    font-size: 25px;
+}
+#c5{
+    background-color:hotpink;
+    color:black;
+    font-size: 25px;
+}

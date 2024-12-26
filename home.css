@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    font-family: serif;
+    background: linear-gradient(to top rgba(0 ,0 ,0, 0.5) rgba(0 0 0 0.5)),url("back.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('back.jpg');
+}
+.navbar{
+    padding-left: 10px;
+    overflow:hidden;
+    background: rgba(0 ,0 ,0, 0.5);
+
+
+}
+.logo{
+    background: rgba(0 ,0 ,0 ,0.3);
+    width:100%;
+color:coral;
+text-align: center;
+}
+.logo h1{
+    padding-top: 10px;
+    margin:0;
+    font-weight: 900px;
+    line-height: 50px;
+
+}
+.navbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    /* animation */
+
+}
+.navbar a.ri{
+    float: right;
+    border-bottom: 1px solid pink ;
+    border-radius: 20px;
+    padding: 14px 6px;
+}.dropdown{
+    float: left;
+    overflow: hidden;
+
+
+}
+.dropdown.dropdownbtn{
+
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+border:none;
+outline:none ;
+color:white;
+padding:14px 16px;
+background-color:inherit;
+margin:0;
+
+}
+
+.dropdown .dropdownbtn {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;  /* Match the padding of regular navbar links */
+    background-color: inherit; /* Makes background same as regular navbar links */
+    margin: 0;
+    display: block; /* Ensure the button fills its container and behaves like a regular link */
+    text-align: center;
+}
+
+.tutor{
+
+    display:none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+min-width:160px;
+box-shadow:0px 8px 16px 0px rgba(0 ,0 ,0 ,0.2);
+}
+/* to hiddin the above code */
+.tutor a{
+    float: none;
+    color:aquamarine;
+    padding:12px 116px;
+    margin-left: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+.navbar a:hover,.dropdown:hover .dropdownbtn{
+    border-bottom: 3px solid aquamarine;
+    border-radius: 10px;
+    color: pink;
+}
+/* the above is for hover animation */
+.tutor a:hover{
+
+    border-bottom: 3px solid aquamarine;
+    border-radius: 20px;
+    color: pink;
+}
+.dropdown:hover .tutor{
+    display: block;
+     position:sticky; 
+}
+.icon{
+    display: none;
+}
+.learn{
+    background-color: brown;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+}
+.learn a{
+    text-decoration: none;
+}
+.cont{
+    margin-left: 10px;
+}
+.learn:hover{
+    background-color: aqua;
+}
+
+  @media screen and (max-width: 750px) {
+    .navbar a:not(:first-child), .dropdown .dropdownbtn {
+        display: none;
+    }
+    
+    .navbar a.icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        float: right;
+    }
+    
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar.responsive .dropdown {
+        float: none;
+    }
+
+    .navbar.responsive .dropdown .tutor {
+        position: relative;
+    }
+
+    .navbar.responsive .dropdown .dropdownbtn {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+}
+#l{
+    color: azure;
+    font-style: oblique;
+}
+#s{color:black;
+font-style: oblique;}
+#p{
+    color:yellow;
+    font-style: initial;
+}
